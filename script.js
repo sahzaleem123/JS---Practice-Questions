@@ -70,11 +70,11 @@
 //     }
 // }
 //             No:11
-// function Table(){
-//     let getTable = parseInt(document.getElementById("inp-value").value)
-//     let timesTable = parseInt(document.getElementById("times-value").value)
+function Table(){
+    let getTable = parseInt(document.getElementById("inp-value").value)
+    let timesTable = parseInt(document.getElementById("times-value").value)
 
-//     for(let i = 1;i <=timesTable; i++ ){
-//         console.log(getTable*i)
-//     }
-// }
+    for(let i = 1;i <=timesTable; i++ ){
+        console.log(getTable*i)
+    }
+}
