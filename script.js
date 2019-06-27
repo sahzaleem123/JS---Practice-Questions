@@ -11,9 +11,11 @@
 //     console.log(i);
 // }
 //         No:04
-// for (let i=1;i <= 100; i++ ){
-//     console.log(i+i)
+// let sum = 0;
+// for (let i = 1; i <= 100; i++) {
+//     sum = sum + i;
 // }
+// console.log(sum);
 //          No:05
 // for (let i=1;i <= 100; i++ ){
 //     console.log(i*i)
@@ -56,11 +58,11 @@
 //     }
 // }
 //             No:11
-function Table(){
-    let getTable = parseInt(document.getElementById("inp-value").value)
-    let timesTable = parseInt(document.getElementById("times-value").value)
+// function Table(){
+//     let getTable = parseInt(document.getElementById("inp-value").value)
+//     let timesTable = parseInt(document.getElementById("times-value").value)
 
-    for(let i = 1;i <=timesTable; i++ ){
-        console.log(getTable*i)
-    }
-}
+//     for(let i = 1;i <=timesTable; i++ ){
+//         console.log(getTable*i)
+//     }
+// }
